@@ -13,13 +13,13 @@
  *     }
  * }
  */
- 
+ import java.util.*;
 
 
  class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        Queue<TreeNode> q = new ArrayList<>();
+        Queue<TreeNode> q = new LinkedList<>();
 
         if(root == null)
            return res;
