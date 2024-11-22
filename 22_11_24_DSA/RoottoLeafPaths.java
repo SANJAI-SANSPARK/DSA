@@ -1,19 +1,4 @@
-Definition for Binary Tree Node
-class Node
-{
-    int data;
-    Node left;
-    Node right;
-
-    Node(int data)
-    {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-}
-*/
-
+import java.util.*;
 class Solution {
     public static ArrayList<ArrayList<Integer>> Paths(Node root) {
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
